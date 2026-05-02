@@ -116,5 +116,5 @@ if __name__ == "__main__":
     with open(FILENAME, "w") as file:
         json.dump(data, file, indent=4)
 
-    # SHOW LOGS (today, all)
+    # SHOW LOGS (all, today)
     show_logs(data, "today")
